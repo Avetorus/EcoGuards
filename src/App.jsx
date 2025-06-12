@@ -5,7 +5,7 @@ import { Home, Trash2, History, Award, User, Star, MapPin, Calendar, Camera, Che
 // ==============================================================================
 const mockUser = {
   name: 'Wensel',
-  email: 'wensel@example.com',
+  email: 'wensel@ecoguard.com',
   profilePicture: 'https://placehold.co/100x100/A8D5BA/333333?text=W',
   joinDate: '2023-01-15',
   level: 'Eco Hero',
@@ -175,7 +175,7 @@ const LoginPage = ({ onLogin }) => {
     const handleLogin = (e) => {
         e.preventDefault();
         // Mock login logic
-        if (email === 'wensen@ecoguard.com' && password === 'wensen123') {
+        if (email === 'wensel@ecoguard.com' && password === 'wensel123') {
             setError('');
             onLogin();
         } else {
